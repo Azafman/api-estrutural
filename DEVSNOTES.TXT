@@ -1,0 +1,23 @@
+DEVSNOTES: (Sistema de anotações simples)
+
+O que o projeto precisa fazer ?
+- Listar as informações 
+- Pegar informações de UMA anotação
+- Inserir uma anotação nova
+- Atualizar uma anotação
+- Deletar uma anotação existente
+
+Qual a estrutura de dados ?
+- local para armazenar as informações
+- id
+- title
+- body
+
+Quais os endpoints ?
+- (GET) /api/notes - /api/getall.php
+- (GET) /api/note/123 - /api/get.php?id=123 
+- (POST) /api/note - /api/insert.php (title, body)
+- (PUT) /api/note/123 (title, body) - /api/update.php (id, ctitle, body)
+- (DELETE) /api/note/123 - /api/delete.php (id)
+
+daqui tiramos que o método post é para inserir, o métdo put para Atualizar e o método delete é para deletar.
